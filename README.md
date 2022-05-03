@@ -1,1 +1,1 @@
-# Solidity-Simple-Bank
+# Solidity Simple Bank

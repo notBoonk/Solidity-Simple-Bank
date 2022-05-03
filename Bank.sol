@@ -6,10 +6,6 @@ contract Bank {
 
     mapping(address => uint256) private AccountBalances;
 
-    function balance() external view returns(uint256) {
-        return AccountBalances[msg.sender];
-    }
-
     function deposit() external payable {
         AccountBalances[msg.sender] += msg.value;
     }
